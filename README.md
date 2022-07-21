@@ -4,5 +4,5 @@
 - sayfaların içerikleri sayfalara göre değişiklik gösterecek
 - sayfası olmayan url pathleri için 404 sayfası gösterilecek
 - ödev için herhangi bir landing page örnek alınabilir. örnek alınan sayfa linki varsa paylaşılmalıdır.
- # Yukarıda belirtilenler yaptım. Fakat yanlışlıkla bonus ödevi de buraya commitledim. Dikkatinize
+ # Yukarıda belirtilenleri yaptım. Fakat yanlışlıkla bonus ödevi de buraya commitledim. Dikkatinize
  Uygulamaya gitmek için [Buraya](https://muhsinarslanhomework-4.netlify.app/) tıklayınız.
