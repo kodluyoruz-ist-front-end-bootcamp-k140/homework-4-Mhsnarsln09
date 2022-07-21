@@ -1,13 +1,14 @@
-import { Routes, Route, Link, NavLink } from 'react-router-dom';
-import './App.css';
+import { Routes, Route, Link} from 'react-router-dom';
+
 import About from './pages/about';
 import Contact from './pages/contact';
 import Home from './pages/home';
 import NotFoundedPages from './pages/notFound';
+import {BrowserRouter} from "react-router-dom"
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
           <div className="collapse navbar-collapse" id="navbarNav">
@@ -25,6 +26,7 @@ function App() {
           </div>
         </div>
       </nav>
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -32,7 +34,8 @@ function App() {
         <Route path="*" element={<NotFoundedPages />} />
         
       </Routes>
-    </>
+      </BrowserRouter>
+ 
   );
 }
 

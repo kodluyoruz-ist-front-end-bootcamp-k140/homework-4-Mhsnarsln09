@@ -1,5 +1,23 @@
-.container {
-    text-align: center;
-    margin-top: 30vh;
+.app-css {
+    padding-top: 50px;
+}
 
+.app-css .card {
+    margin-bottom: 40px;
+
+}
+
+.product-image {
+    height: 250px;
+}
+
+.product-css {
+    height: 250px;
+
+}
+
+.app-css .card .card-body div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
